@@ -1,0 +1,18 @@
+package fat.iap;
+
+import java.util.Scanner;
+
+public class exemplo4 {
+
+	public static void main(String[] args) {
+
+		Scanner sc = new Scanner(System.in);
+
+		System.out.println("Digite o comprimento do raio:");
+		int r = sc.nextInt();
+
+		System.out.println("A esfera possui " + (4*3.14)*(r*r*r)/3 + " cm³ de volume.");
+
+		sc.close();// fechar recepção de dados
+	}
+}
