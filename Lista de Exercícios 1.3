@@ -1,0 +1,21 @@
+package fat.iap;
+
+import java.util.Scanner;
+
+public class exercicio3 {
+public static void main(String[] args) {
+
+double n;
+
+Scanner sc = new Scanner(System.in);
+
+System.out.println("Digite um número qualquer abaixo");
+n = sc.nextDouble();
+
+System.out.println("O número " + n + " foi digitado e será acrescido em 10%.");
+n = n + (0.1 * n);
+
+System.out.println("Com o acrescido de 10% seu novo valor é: " + n);
+sc.close();
+}
+}
