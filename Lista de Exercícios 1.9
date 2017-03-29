@@ -1,0 +1,24 @@
+package fat.iap;
+
+import java.util.Scanner;
+
+public class exercicio9 {
+public static void main(String[] args) {
+
+int somatorio = 0;
+
+Scanner sc = new Scanner(System.in);// abrir recepção de dados
+
+System.out.println("Digite um número e veja o somatório dos números de 1 a N:");
+
+int n = sc.nextInt();
+for (int i = 1; i <= n; i++) {
+somatorio = somatorio + i;
+}
+
+System.out.println("Veja abaixo a soma de todos os números");
+System.out.println(somatorio);
+
+sc.close();// fechar recepção de dados
+}
+}
