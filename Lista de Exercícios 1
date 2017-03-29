@@ -1,0 +1,27 @@
+package fat.iap;
+
+import java.util.Scanner;
+
+public class exercicio4 {
+public static void main(String[] args) {
+
+int a;
+int b;
+int c;
+
+Scanner sc = new Scanner(System.in); // abrir recepção de dados
+System.out.println("Digite a primeira nota");
+a = sc.nextInt();
+
+System.out.println("Digite a segunda nota");
+b = sc.nextInt();
+
+System.out.println("Digite a terceira nota");
+c = sc.nextInt();
+
+int m = (a + b + c) / 3;
+
+System.out.println("A média aritmética dos números " + a + ", " + b + " e " + c + " é igual a " + m);
+sc.close();
+}
+}
