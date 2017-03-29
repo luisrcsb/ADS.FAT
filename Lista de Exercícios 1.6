@@ -1,0 +1,20 @@
+package fat.iap;
+
+import java.util.Scanner;
+
+public class exercicio6 {
+
+public static void main(String[] args) {
+
+double c;
+Scanner sc = new Scanner(System.in); // abrir recepção de dados
+
+System.out.println("Digite a temperatura em  graus Celsius");
+c = sc.nextDouble();
+
+double f = ((c * 1.8) + 32);
+System.out.println("A temperatura em graus Fahrenheit é de " + f);
+
+sc.close();// fechar recepção de dados
+}
+}
